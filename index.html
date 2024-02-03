@@ -1,11 +1,151 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prafull</title>
+    <title>UI Designer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .nav {
+            list-style: none;
+            display: flex;
+        }
+
+        .nav li {
+            margin-left: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .nav a:hover {
+            color: #555;
+        }
+
+        .banner {
+            height: 500px;
+            background-image: url("banner.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner h1 {
+            font-size: 48px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .intro {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .portfolio {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            padding: 40px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .portfolio img:hover {
+            opacity: 0.8;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #ccc;
+        }
+    </style>
 </head>
 <body>
-    HI...
-    
+    <div class="container">
+        <div class="header">
+            <div class="logo">UI Designer Portfolio</div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="banner">
+            <h1>Hello, I'm a UI Designer</h1>
+        </div>
+        <div class="intro">
+            <h2>What I do</h2>
+            <p>I create beautiful and user-friendly interfaces for web and mobile applications. I have a passion for design and a keen eye for details. I enjoy working on challenging projects and collaborating with other designers and developers.</p>
+        </div>
+        <!-- <div class="portfolio">
+            <img src="project1.jpg" alt="Project 1">
+            <img src="project2.jpg" alt="Project 2">
+            <img src="project3.jpg" alt="Project 3">
+            <img src="project4.jpg" alt="Project 4">
+            <img src="project5.jpg" alt="Project 5">
+            <img src="project6.jpg" alt="Project 6">
+        </div> -->
+        <div class="footer">
+            <p>© 2024 UI Designer Portfolio. All rights reserved.</p>
+            <p>Follow me on <a href="#">Twitter</a>, <a href="#">LinkedIn</a>, and <a href="#">Dribbble</a>.</p>
+        </div>
+    </div>
 </body>
 </html>
