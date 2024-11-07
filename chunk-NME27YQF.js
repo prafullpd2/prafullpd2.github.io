@@ -1,0 +1,1 @@
+import{Ea as i,Fa as a,Qa as r,Ua as c,V as o}from"./chunk-L6E6PG2X.js";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-connect"]],standalone:!0,features:[c],decls:2,vars:0,template:function(n,p){n&1&&(i(0,"p"),r(1,"connect works!"),a())}});let t=e;return t})();export{d as ConnectComponent};
