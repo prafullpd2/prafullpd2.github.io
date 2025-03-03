@@ -1,1 +1,0 @@
-import{Ca as a,Da as r,La as i,Pa as p,V as n}from"./chunk-JKTX7OYB.js";var d=(()=>{let e=class e{};e.\u0275fac=function(o){return new(o||e)},e.\u0275cmp=n({type:e,selectors:[["app-photography"]],standalone:!0,features:[p],decls:2,vars:0,template:function(o,c){o&1&&(a(0,"p"),i(1,"photography works!"),r())}});let t=e;return t})();export{d as PhotographyComponent};

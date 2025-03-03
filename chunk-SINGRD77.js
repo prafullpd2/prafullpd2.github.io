@@ -1,0 +1,1 @@
+import"./chunk-K5L2W5MH.js";import"./chunk-VWTLELP3.js";import{Ua as r,V as n}from"./chunk-7THKB6DY.js";var d=(()=>{let e=class e{};e.\u0275fac=function(o){return new(o||e)},e.\u0275cmp=n({type:e,selectors:[["app-home"]],standalone:!0,features:[r],decls:0,vars:0,template:function(o,i){}});let t=e;return t})();export{d as HomeComponent};
